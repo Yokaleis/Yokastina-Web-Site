@@ -1,0 +1,25 @@
+/* En tu App.css o index.css */
+@import "tailwindcss";
+
+
+
+@theme {
+
+  --color-rosachicle: #F2619C;
+  --color-azulcielito: #93ABD9;
+  --color-amarillobanana: #EDE986;
+  --color-lilaternura: #E7BEF8;
+  --color-fondo: #FAFAF8;
+
+  /* Configuración de tipografía */
+  --font-divertida: "Cherry Bomb One", display;
+  --font-weight: 400;
+  --font-style: normal;
+}
+
+
+.cherry-bomb-one-regular {
+font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}

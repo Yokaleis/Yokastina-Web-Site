@@ -1,0 +1,9 @@
+import React from 'react'
+
+export function Projects() {
+  return (
+    <div>
+      <h1>Proyectos</h1>
+    </div>
+  )
+}
