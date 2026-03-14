@@ -9,10 +9,10 @@ export default function Contacto() {
 
     emailjs
       .sendForm(
-        'service_sc3db19',
-        'template_gqko8ge',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         form.current,
-        'yMpjM7QmMKbR3C8qk'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
