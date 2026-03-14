@@ -29,7 +29,7 @@ export default function Contacto() {
     <div className="p-30 " style={{ backgroundImage: `url(${bgContact})` }}> 
         <section className="bg-azulcielito p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
                 <h2 className="text-amarillobanana font-bold lg:text-5xl md:text-3xl cherry-bomb-one-regular text-center mb-10">Contacto</h2>
-          <form action="" ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="mb-4">
             <input type="text" name="title" id="title" className="w-full rounded-xl border-none bg-amber-100 px-3 py-2 placeholder-primary text-sm" placeholder="Contratación, colaboración, etc" />
           </div>
