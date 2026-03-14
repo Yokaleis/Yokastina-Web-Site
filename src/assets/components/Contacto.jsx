@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import bgContact from '../components/assets/bg-contact.png'
-import { EmailJSResponseStatus } from '@emailjs/browser';
+import emailjs from '@emailjs/browser'
 export default function Contacto() {
 
     const form = useRef();
@@ -8,7 +8,7 @@ export default function Contacto() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    EmailJSResponseStatus
+    emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
