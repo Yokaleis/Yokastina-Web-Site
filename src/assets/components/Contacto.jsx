@@ -42,7 +42,7 @@ export default function Contacto() {
           <div className="mb-4">
             <textarea name="message" id="message" className="w-full  rounded-xl border-none bg-amber-100 px-3 py-2 placeholder-primary text-sm" placeholder="Escríbeme un mensaje 😊"></textarea>
           </div>
-          <button type="button" className="w-full bg-amarillobanana text-rosachicle font-semibold px-6 py-2 rounded-3xl hover:bg-azulcielito hover:border hover:border-amarillobanana">Enviar</button>
+          <button type="submit" className="w-full bg-amarillobanana text-rosachicle font-semibold px-6 py-2 rounded-3xl hover:bg-azulcielito hover:border hover:border-amarillobanana">Enviar</button>
         </form>
         </section>
     </div>
