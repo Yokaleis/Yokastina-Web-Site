@@ -40,7 +40,7 @@ export function Home() {
     </div>
     <div className="bg-fondo p-10">
       <h2 className="text-rosachicle font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Habilidades</h2>
-      <div className="flex gap-10 justify-center">
+      <div className="grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-2 gap-10 justify-center">
         <HtmlIcon/>
         <CSSIcon/>
         <ReactIcon/>

@@ -27,7 +27,7 @@ export default function Contacto() {
 
 
   return (
-    <div className="p-30 " style={{ backgroundImage: `url(${bgContact})` }}> 
+    <div className="lg:p-30 sm:p-5" style={{ backgroundImage: `url(${bgContact})` }}> 
         <section className="bg-azulcielito p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
                 <h2 className="text-amarillobanana font-bold lg:text-5xl md:text-3xl cherry-bomb-one-regular text-center mb-10">Contacto</h2>
           <form ref={form} onSubmit={sendEmail}>
