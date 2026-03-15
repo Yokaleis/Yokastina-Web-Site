@@ -5,6 +5,8 @@ import { Header } from '../components/Header'
 import { Card, CardTestimonial } from '../components/Card'
 import { AdobeIcon, CSSIcon, FigmaIcon, GitIcon, HtmlIcon, JsIcon, ReactIcon } from '../components/Icons'
 
+import { projects } from '../../mockups/proyects'
+
 import yoSoy from '../components/assets/sobremi.png'
 
 import { Footer } from '../components/Footer'
@@ -31,11 +33,9 @@ export function Home() {
     <div className="bg-azulcielito p-10">
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Proyectos</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 justify-center">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        
+        {projects.map((project) => (
+          <Card id={project.id} title={project.title} image={project.image} category={project.category} description={project.description}/>
+        ))}
       </div>
     </div>
     <div className="bg-fondo p-10">

@@ -16,18 +16,19 @@ export function Categoria({status, text}) {
 }
 
 /*TODO: mapear*/
-export function Card() {
+export function Card({id, title, image, description, category}) {
   return (
-    <div className='grid grid-cols-[40%_60%] bg-white rounded-2xl'>
-      <div className='rounded-tl-sm rounded-bl-sm' style={{backgroundImage: `url(${imgCover})`, backgroundSize: `cover`}} >
+    <div id={id} className='grid grid-cols-[40%_60%] bg-white rounded-2xl'>
+      <div className='rounded-tl-sm rounded-bl-sm' style={{backgroundImage: `url(${image})`, backgroundSize: `cover`}} >
         <img alt="" srcset="" />
       </div>
       <div className='grid gap-2 p-5'>
-        <h4 className='font-semibold text-lg'>SOIV (Sistema Operativo Integral de Venemergencia)</h4>
-        <p className='text-sm'>El problema principal del antiguo sistema de gestión era que ya no se adaptaba al crecimiento que tuvo la empresa, para el personal médico administrativo era complicado cumplir con sus labores, atender las llamadas de pacientes, subir su historial médico, asignar medicamentos, etc, el personal quería realizar el trabajo con mayor eficacia, además como mencioné anteriormente, se estaban evaluando la integración de otros servicios que beneficiaban no sólo a los pacientes, si no a la empresa. Algunos puntos débiles experimentados por los usuarios: • Lentitud del sistema. • Desorganización. • Obsolescencia.
-Debido a esto era fundamental una renovación y la integración de nuevas características que favorecieran a los usuarios.</p>
-      <div className='flex justify-between'>
-        <Categoria status="frontend" text="#frotend🩷"/>
+        <section className='h-60'>
+          <h4 className='font-semibold text-lg mb-2'>{title}</h4>
+        <p className='text-sm'>{description}</p>
+        </section>
+      <div className='flex justify-between h-auto'>
+        <Categoria status="frontend" text={category}/>
         <button className='text-lilaternura text-sm'>Ver más</button>
       </div>
       </div>
