@@ -1,9 +1,14 @@
-import React, { useRef } from 'react'
-import bgContact from '../components/assets/bg-contact.png'
-import emailjs from '@emailjs/browser'
-export default function Contacto() {
+import { useRef } from 'react';
 
-    const form = useRef();
+//LIBRERIAS
+import emailjs from '@emailjs/browser';
+
+//COMPONENTES
+import bgContact from '../components/assets/bg-contact.png'
+
+export function Contacto() {
+
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -27,11 +32,11 @@ export default function Contacto() {
 
 
   return (
-    <div className="lg:p-30 sm:p-5" style={{ backgroundImage: `url(${bgContact})` }}> 
-        <section className="bg-azulcielito p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
-                <h2 className="text-amarillobanana font-bold lg:text-5xl md:text-3xl cherry-bomb-one-regular text-center mb-10">Contacto</h2>
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="mb-4">
+    <div className="lg:p-30 sm:p-5" style={{ backgroundImage: `url(${bgContact})` }}>
+      <section className="bg-azulcielito p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
+        <h2 className="text-amarillobanana font-bold lg:text-5xl md:text-3xl cherry-bomb-one-regular text-center mb-10">Contacto</h2>
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="mb-4">
             <input type="text" name="title" id="title" className="w-full rounded-xl border-none bg-amber-100 px-3 py-2 placeholder-primary text-sm" placeholder="Contratación, colaboración, etc" />
           </div>
           <div className="mb-4">
@@ -45,7 +50,7 @@ export default function Contacto() {
           </div>
           <button type="submit" className="w-full bg-amarillobanana text-rosachicle font-semibold px-6 py-2 rounded-3xl hover:bg-azulcielito hover:border hover:border-amarillobanana">Enviar</button>
         </form>
-        </section>
+      </section>
     </div>
   )
 }

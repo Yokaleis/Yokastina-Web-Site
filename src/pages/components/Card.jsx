@@ -1,6 +1,5 @@
-import React from 'react'
-
-import imgCover from "../components/assets/CoverSOIV.png";
+//IMAGENES
+import imgCover from "./assets/CoverSOIV.png";
 
 export function Categoria({status, text}) {
   switch (status) {
@@ -16,11 +15,10 @@ export function Categoria({status, text}) {
 }
 
 /*TODO: mapear*/
-export function Card({id, title, image, description, category}) {
+export function Card({id, title, image, description, category, link}) {
   return (
     <div id={id} className='grid grid-cols-[40%_60%] bg-white rounded-2xl'>
       <div className='rounded-tl-sm rounded-bl-sm' style={{backgroundImage: `url(${image})`, backgroundSize: `cover`}} >
-        <img alt="" srcset="" />
       </div>
       <div className='grid gap-2 p-5'>
         <section className='h-60'>
@@ -29,7 +27,7 @@ export function Card({id, title, image, description, category}) {
         </section>
       <div className='flex justify-between h-auto'>
         <Categoria status="frontend" text={category}/>
-        <button className='text-lilaternura text-sm'>Ver más</button>
+        <a href={link} target="_blank" rel="noopener noreferrer" className='text-lilaternura text-sm'>Ver más</a>
       </div>
       </div>
     </div>

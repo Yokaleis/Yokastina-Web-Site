@@ -3,8 +3,8 @@ import { useState } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router'
 
 import './App.css'
-import { Home } from './assets/pages/Home'
-import { Projects } from './assets/pages/Projects'
+import { Home } from './pages/Home'
+import { Projects } from './pages/Projects'
 
 function App() {
   

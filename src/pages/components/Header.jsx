@@ -1,6 +1,5 @@
-import React from 'react'
-
-import bgHero from '../components/assets/Bg_Hero.png';
+//IMAGENES
+import bgHero from '../components/assets/Bg_Hero.png'
 import yoHero from '../components/assets/yoHero.svg'
 import yoHeroSmall400 from '../components/assets/yoHeroSmall400.png'
 import yoHeroMedium800 from '../components/assets/yoHeroMedium800.png'

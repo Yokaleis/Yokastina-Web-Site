@@ -1,16 +1,16 @@
-import React from 'react'
-import reactLogo from '../../assets/react.svg'
-import { Menu } from '../components/Menu'
-import { Header } from '../components/Header'
-import { Card, CardTestimonial } from '../components/Card'
-import { AdobeIcon, CSSIcon, FigmaIcon, GitIcon, HtmlIcon, JsIcon, ReactIcon } from '../components/Icons'
+//COMPONENTES
+import { Header } from './components/Header'
+import { Card, CardTestimonial } from './components/Card'
+import { Footer } from './components/Footer'
+import { Contacto } from './components/Contacto'
+import { AdobeIcon, CSSIcon, FigmaIcon, GitIcon, HtmlIcon, JsIcon, ReactIcon } from './components/Icons'
 
-import { projects } from '../../mockups/proyects'
+//MOCKUPS
+import { projects } from '../mockups/proyects'
 
-import yoSoy from '../components/assets/sobremi.png'
+//IMAGENES
+import yoSoy from './components/assets/sobremi.png'
 
-import { Footer } from '../components/Footer'
-import Contacto from '../components/Contacto'
 export function Home() {
   return (
   <>
@@ -34,7 +34,7 @@ export function Home() {
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Proyectos</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 justify-center">
         {projects.map((project) => (
-          <Card id={project.id} title={project.title} image={project.image} category={project.category} description={project.description}/>
+          <Card id={project.id} title={project.title} image={project.image} category={project.category} description={project.description} link={project.link}/>
         ))}
       </div>
     </div>
@@ -63,15 +63,15 @@ export function Home() {
         </section>
       </div>
     </div>
-    <div className="bg-fondo p-10"> 
+    {/*<div className="bg-fondo p-10"> 
       <h2 className="text-azulcielito font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Testimonios</h2>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 justify-center">
+       <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 justify-center">
         <CardTestimonial/>
         <CardTestimonial/>
         <CardTestimonial/>
         <CardTestimonial/>
-        </div>
-    </div>
+        </div> 
+    </div>*/}
     <Contacto/>
     <Footer/>
     </>
