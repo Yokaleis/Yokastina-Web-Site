@@ -10,11 +10,12 @@ import { projects } from '../mockups/proyects'
 
 //IMAGENES
 import yoSoy from './components/assets/sobremi.png'
+import { Menu } from './components/Menu'
 
 export function Home() {
   return (
   <>
-  
+  <Menu/>
   <Header/>
 
     {/* <div className='items-center m-30'>
@@ -30,17 +31,17 @@ export function Home() {
       </p>
     </div> */}
 
-    <div className="bg-azulcielito p-10">
-      <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Proyectos</h2>
+    <div className="bg-azulcielito p-10 h-230" id="proyectos">
+      <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Proyectos</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 justify-center">
         {projects.map((project) => (
           <Card id={project.id} title={project.title} image={project.image} category={project.category} description={project.description} link={project.link}/>
         ))}
       </div>
     </div>
-    <div className="bg-fondo p-10">
+    <div className="bg-fondo p-10" id="habilidades">
       <h2 className="text-rosachicle font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Habilidades</h2>
-      <div className="grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-2 gap-10 justify-center">
+      <div className="grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center p-20">
         <HtmlIcon/>
         <CSSIcon/>
         <ReactIcon/>
@@ -50,8 +51,8 @@ export function Home() {
         <GitIcon/>
       </div>
     </div>
-    <div className="bg-rosachicle p-10">
-      <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Sobre mi</h2>
+    <div className="bg-rosachicle p-10 h-230" id="sobremi">
+      <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
         <section className="p-20 ">
           <p className="text-lg">Mi nombre es Yokasta, soy de Venezuela y trabajo  como diseñadora.<br/> 

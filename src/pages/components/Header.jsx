@@ -8,7 +8,7 @@ import yoHeroLarge1200 from '../components/assets/yoHeroLarge1200.png'
 export function Header() {
   return (
 
-    <div className="grid lg:grid-cols-2 md:grid-cols-1 items-center h-full bg-cover bg-center" style={{ backgroundImage: `url(${bgHero})` }}>
+    <div className="grid lg:grid-cols-2 md:grid-cols-1 items-center h-230 bg-cover bg-center" style={{ backgroundImage: `url(${bgHero})` }} id="inicio">
       <div className="m-10 lg:p-15 sm:p-5">
         <span className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl cherry-bomb-one-regular text-rosachicle">Hola 👋🏽</span>
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-rosachicle">Bienvenido a mi laboratorio de diseño y desarrollo</h1>

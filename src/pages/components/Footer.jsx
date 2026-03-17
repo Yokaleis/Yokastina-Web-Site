@@ -11,7 +11,6 @@ export function Footer() {
                 <li>Proyectos</li>
                 <li>Habilidades</li>
                 <li>Sobre mí</li>
-                <li>Testimonios</li>
                 <li>Contacto</li>
               </ul>
               </div>
