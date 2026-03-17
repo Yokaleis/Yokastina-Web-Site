@@ -11,35 +11,35 @@ export function Menu() {
           </div>
           <div className="flex space-x-4">
             {/* <!-- Current: "bg-gray-950/50 text-white", Default: "text-gray-300 hover:bg-white/5 hover:text-white" --> */}
-            <a href="#" className="px-3 py-2 text-sm font-medium">
+            <a href="#" className="px-3 py-2 text-sm">
               <ScrollLink to="inicio" spy={true}
                 smooth={true}
                 offset={-70} // Ajusta esto según la altura de tu menú
-                duration={500} className={location.pathname === "/" ? "text-rosachicle border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-rosachicle hover:text-azulcielito"}>Inicio</ScrollLink>
+                duration={500} className={location.pathname === "inicio" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Inicio</ScrollLink>
             </a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm text-gray-600 hover:text-secondary">
+            <a href="#" className="px-3 py-2 text-sm">
               <ScrollLink to="proyectos" spy={true}
                 smooth={true}
                 offset={-70} // Ajusta esto según la altura de tu menú
-                duration={500} className={location.pathname === "/" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Proyectos</ScrollLink>
+                duration={500} className={location.pathname === "proyectos" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Proyectos</ScrollLink>
             </a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm text-gray-600 hover:text-secondary">
+            <a href="#" className="px-3 py-2 text-sm">
               <ScrollLink to="habilidades" spy={true}
                 smooth={true}
                 offset={-70} // Ajusta esto según la altura de tu menú
-                duration={500} className={location.pathname === "/#habilidades" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Habilidades</ScrollLink>
+                duration={500} className={location.pathname === "habilidades" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Habilidades</ScrollLink>
             </a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm text-gray-600 hover:text-secondary">
+            <a href="#" className="px-3 py-2 text-sm">
               <ScrollLink to="sobremi" spy={true}
                 smooth={true}
                 offset={-70} // Ajusta esto según la altura de tu menú
-                duration={500} className={location.pathname === "/" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Sobre mí</ScrollLink>
+                duration={500} className={location.pathname === "sobremi" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Sobre mí</ScrollLink>
             </a>
-            <a href="#" className="rounded-md px-3 py-2 text-sm text-gray-600 hover:text-secondary">
+            <a href="#" className="px-3 py-2 text-sm">
               <ScrollLink to="contacto" spy={true}
                 smooth={true}
                 offset={-70} // Ajusta esto según la altura de tu menú
-                duration={500} className={location.pathname === "/" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Contacto</ScrollLink>
+                duration={500} className={location.pathname === "contacto" ? "text-black border-2 py-1.5 border-spacing-2 border-transparent border-b-secondary" : "text-gray-600 hover:text-rosachicle"}>Contacto</ScrollLink>
             </a>
           </div>
         </div>
