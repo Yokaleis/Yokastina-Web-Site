@@ -17,13 +17,13 @@ export function Categoria({status, text}) {
 /*TODO: mapear*/
 export function Card({id, title, image, description, category, link}) {
   return (
-    <div id={id} className='grid grid-cols-[40%_60%] bg-white rounded-2xl'>
+    <div id={id} className='grid grid-cols-[40%_60%] bg-white rounded-2xl h-100%'>
       <div className='rounded-tl-sm rounded-bl-sm' style={{backgroundImage: `url(${image})`, backgroundSize: `cover`}} >
       </div>
       <div className='grid gap-2 p-5'>
-        <section className='h-60'>
-          <h4 className='font-semibold text-lg mb-2'>{title}</h4>
-        <p className='text-sm'>{description}</p>
+        <section className='lg:h-60 md:h-auto'>
+          <h4 className='font-semibold lg:text-lg md:text-sm mb-2'>{title}</h4>
+        <p className='lg:text-sm text-base md:text-xs'>{description}</p>
         </section>
       <div className='flex justify-between h-auto'>
         <Categoria status="frontend" text={category}/>

@@ -15,7 +15,7 @@ import { Menu } from './components/Menu'
 export function Home() {
   return (
   <>
-  <Menu/>
+  <Menu/> 
   <Header/>
 
     {/* <div className='items-center m-30'>
@@ -31,7 +31,7 @@ export function Home() {
       </p>
     </div> */}
 
-    <div className="bg-azulcielito p-10 h-230" id="proyectos">
+    <div className="bg-azulcielito p-10" id="proyectos">
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Proyectos</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 justify-center">
         {projects.map((project) => (
@@ -51,7 +51,7 @@ export function Home() {
         <GitIcon/>
       </div>
     </div>
-    <div className="bg-rosachicle p-10 h-230" id="sobremi">
+    <div className="bg-rosachicle p-10" id="sobremi">
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
         <section className="p-20 ">
