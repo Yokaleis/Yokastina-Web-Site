@@ -4,7 +4,7 @@ import imgCover from "./assets/CoverSOIV.png";
 export function Categoria({status, text}) {
   switch (status) {
     case "frontend":
-      return <span className="bg-amarillobanana/30 text-rosachicle lg:text-sm md:text-[7px] font-medium mr-2 px-2.5 py-0.5 rounded-full">{text}</span>
+      return <span className="bg-amarillobanana/30 text-rosachicle lg:text-sm sm:truncate  font-medium mr-2 px-2.5 py-0.5 rounded-full">{text}</span>
     case "casedeestudio":
       return <span className="bg-amarillobanana/30 text-rosachicle text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full">{text}</span>
     case "uxui":
@@ -26,7 +26,7 @@ export function Card({id, title, image, description, category, link}) {
         <p className='lg:text-sm text-base md:text-xs'>{description}</p>
         </section>
       <div className='lg:flex lg:justify-between h-auto '>
-        <div><Categoria status="frontend" text={category}/></div>
+        <div className="sm:flex "><Categoria status="frontend" text={category}/></div>
         <div>
           <a href={link} target="_blank" rel="noopener noreferrer" className='text-lilaternura text-sm'>Ver más</a>
         </div>
