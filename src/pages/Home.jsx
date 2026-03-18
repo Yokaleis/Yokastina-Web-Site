@@ -10,12 +10,12 @@ import { projects } from '../mockups/proyects'
 
 //IMAGENES
 import yoSoy from './components/assets/sobremi.png'
-import { Menu } from './components/Menu'
+import { MenuPrincipal } from './components/Menu'
 
 export function Home() {
   return (
   <>
-  <Menu/> 
+  <MenuPrincipal/> 
   <Header/>
 
     {/* <div className='items-center m-30'>
