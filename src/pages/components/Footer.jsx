@@ -20,7 +20,7 @@ export function Footer() {
             </div>
         </div>
         <div className="grid grid-cols-1 text-center">
-                <p>Todos los derechos reservados</p>
+                <p className="text-xs font-semibold text-gray-500">Made in Venezuela 💛💙❤️ | 2026</p>
             </div>
 
     </div>
