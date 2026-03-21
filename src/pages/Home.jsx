@@ -62,7 +62,7 @@ export function Home() {
             <br/> 
             Como diseñadora con bases técnicas, domino el desarrollo frontend con React y Tailwind CSS, lo que me permite construir puentes efectivos entre el prototipado y la implementación final. Uso metodologías Lean UX y Design Thinking para generar iteraciones constantes basadas en la retroalimentación real de usuarios y stakeholders. Mi flujo de trabajo integra principios de accesibilidad y estrategias mobile-first para garantizar experiencias inclusivas en cualquier dispositivo.
             <br/> 
-            Siempre estoy dispuesta a mantener un aprendizaje continuo, complementando mi formación con certificaciones en Diseño de Servicios y Usabilidad, Prompt Engineering y si, más Frontend porque mi objetivo es seguir creando interfaces que no solo faciliten la vida de las personas, sino que impulsen el crecimiento tecnológico a través de un diseño centrado en el usuario.
+            A pesar de que mi vida profesional no es tan para nada extensa, siempre estoy dispuesta a mantener un aprendizaje continuo, complementando mi formación con certificaciones en Diseño de Servicios y Usabilidad, Prompt Engineering y si, más Frontend porque mi objetivo es seguir creando interfaces que no solo faciliten la vida de las personas, sino que impulsen el crecimiento tecnológico a través de un diseño centrado en el usuario.
 
           </p>
         </section>
