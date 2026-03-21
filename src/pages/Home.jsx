@@ -55,9 +55,16 @@ export function Home() {
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
         <section className="p-20 ">
-          <p className="text-lg">Mi nombre es Yokasta, soy de Venezuela y trabajo  como diseñadora.<br/> 
-          Comencé a trabajar de forma remota en 2016, como desarrolladora de sitios web, tiempo después una empresa me contrató para diseñar aplicaciones móviles y desde entonces comencé a interesarme más en crecer mis habilidades de diseño, diseño de interfaz y experiencia de usuario. <br/> 
-          Actualmente sigo diseñando, abandoné el desarrollo pero, me gustaría retomarlo.</p>
+          <p className="text-lg">
+            Hola soy Yokasta, graduada como Ingeniera en Informática y actualmente trabajando como UI Designer con más de cinco años de experiencia transformando necesidades de negocio en productos digitales intuitivos. A lo largo de mi trayectoria en el sector salud, he diseñado interfaces webs y móviles para más de 10 productos digitales, mejorando significativamente el acceso a servicios de telemedicina principalmente en Venezuela, mi experiencia se extiende también al diseño para los sectores de comercio electrónico y educación online, adaptando cada interfaz a usuarios específicos.
+            <br/> 
+            Tengo una sólida experiencia implementando y manteniendo sistemas de diseño en Figma y Adobe XD, logrando optimizar los tiempos de producción del equipo en un 40%. 
+            <br/> 
+            Como diseñadora con bases técnicas, domino el desarrollo frontend con React y Tailwind CSS, lo que me permite construir puentes efectivos entre el prototipado y la implementación final. Uso metodologías Lean UX y Design Thinking para generar iteraciones constantes basadas en la retroalimentación real de usuarios y stakeholders. Mi flujo de trabajo integra principios de accesibilidad y estrategias mobile-first para garantizar experiencias inclusivas en cualquier dispositivo.
+            <br/> 
+            Siempre estoy dispuesta a mantener un aprendizaje continuo, complementando mi formación con certificaciones en Diseño de Servicios y Usabilidad, Prompt Engineering y si, más Frontend porque mi objetivo es seguir creando interfaces que no solo faciliten la vida de las personas, sino que impulsen el crecimiento tecnológico a través de un diseño centrado en el usuario.
+
+          </p>
         </section>
         <section>
           <img src={yoSoy} alt=""  className="rounded-2xl"/>
