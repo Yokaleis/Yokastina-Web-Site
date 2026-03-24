@@ -1,10 +1,11 @@
-import { useState } from 'react'
-
 import { BrowserRouter, Route, Routes } from 'react-router'
 
+//STYLES
 import './App.css'
+
+//PAGINAS
 import { Home } from './pages/Home'
-import { Projects } from './pages/Projects'
+
 
 function App() {
   
@@ -13,7 +14,6 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' index element={<Home/>}/>
-        <Route path='proyectos' element={<Projects/>}/>
       </Routes>
       </BrowserRouter>
     </>

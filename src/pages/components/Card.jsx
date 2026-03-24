@@ -28,7 +28,7 @@ export function Card({id, title, image, description, category, link}) {
       <div className='lg:flex lg:justify-between h-auto '>
         <div className="sm:flex "><Categoria status="frontend" text={category}/></div>
         <div>
-          <a href={link} target="_blank" rel="noopener noreferrer" className='text-lilaternura text-sm'>Ver más</a>
+          <a href={link} target="_blank" rel="noopener noreferrer" className='text-lilaternura text-sm'>Ver proyecto</a>
         </div>
       </div>
       </div>

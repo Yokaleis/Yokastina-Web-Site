@@ -11,6 +11,7 @@ import { projects } from '../mockups/proyects'
 //IMAGENES
 import yoSoy from './components/assets/sobremi.png'
 import { MenuPrincipal } from './components/Menu'
+import { ProjectSection } from './Projects'
 
 export function Home() {
   return (
@@ -31,14 +32,17 @@ export function Home() {
       </p>
     </div> */}
 
-    <div className="bg-azulcielito p-10" id="proyectos">
+    {/* <div className="bg-azulcielito p-10" id="proyectos">
       <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Proyectos</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-6 justify-center">
         {projects.map((project) => (
           <Card id={project.id} title={project.title} image={project.image} category={project.category} description={project.description} link={project.link}/>
         ))}
       </div>
-    </div>
+    </div> */}
+
+    <ProjectSection/>
+    
     <div className="bg-fondo p-10" id="habilidades">
       <h2 className="text-rosachicle font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Habilidades</h2>
       <div className="grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center p-20">

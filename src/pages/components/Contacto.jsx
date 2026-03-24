@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 
 //COMPONENTES
 import bgContact from '../components/assets/bg-contact.png'
+import MagneticBotton from './MagneticBotton';
 
 export function Contacto() {
 
@@ -48,7 +49,10 @@ export function Contacto() {
           <div className="mb-4">
             <textarea name="message" id="message" className="w-full  rounded-xl border-none bg-amber-100 px-3 py-2 placeholder-primary text-sm" placeholder="Escríbeme un mensaje 😊"></textarea>
           </div>
-          <button type="submit" className="w-full bg-amarillobanana text-rosachicle font-semibold px-6 py-2 rounded-3xl hover:bg-azulcielito hover:border hover:border-amarillobanana">Enviar</button>
+          <MagneticBotton>
+          <button type="submit" className="w-full bg-amarillobanana text-rosachicle font-semibold px-6 py-2 rounded-3xl">Enviar</button>
+
+          </MagneticBotton>
         </form>
       </section>
     </div>
