@@ -1,9 +1,10 @@
 import imgCover from "../pages/components/assets/CoverSOIV.png";
 import imgCoverMS from "../pages/components/assets/appMercantilCover.png";
 import imgCoverSitioRecetas from "../pages/components/assets/imgcoversitiowebrecetas.png";
+import ImagenPrototipoApp from "../pages/components/assets/ImagenPrototipoApp.png";
 
 
-export const projects =[
+export const projects = [
     {
         id: 1,
         image: imgCover,
@@ -36,5 +37,17 @@ export const projects =[
         category: "#Frontend🩷",
         link: "https://sitio-web-de-recetas.vercel.app/"
     },
-   
+    {
+        id: 5,
+        image: ImagenPrototipoApp,
+        title: "Prototipo Aplicación SOIV",
+        description: "Prototipo desarrollado en gran parte con ✨Claude✨, este prototipo es un rediseño de la aplicación que utilizan los médicos hoy en día. El objetipo principal era optimizar la vista del detalle de la atención y el componente de estatus para reducir la carga cognitiva.",
+        category: [
+            "#Frontend🩷",
+            "#Figma✏️"
+        ] ,
+        link: "https://snack.expo.dev/@yokastina/soiv-med-con-tabs"
+    },
+
+
 ]

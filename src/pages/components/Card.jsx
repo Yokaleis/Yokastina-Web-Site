@@ -14,7 +14,6 @@ export function Categoria({status, text}) {
   }
 }
 
-/*TODO: mapear*/
 export function Card({id, title, image, description, category, link}) {
   return (
     <div id={id} className='grid grid-cols-[40%_60%] bg-white rounded-2xl h-100%'>
@@ -26,7 +25,12 @@ export function Card({id, title, image, description, category, link}) {
         <p className='lg:text-sm text-base md:text-xs'>{description}</p>
         </section>
       <div className='lg:flex lg:justify-between h-auto '>
-        <div className="sm:flex "><Categoria status="frontend" text={category}/></div>
+        <div className="sm:flex ">
+            {(Array.isArray(category) ? category : [category]).map((cat, index) => (
+    <Categoria key={index} status="frontend" text={cat} />
+  ))}
+
+        </div>
         <div>
           {link ? (
   <a href={link} target="_blank" rel="noopener noreferrer" className='text-lilaternura text-sm hover:text-amarillobanana'>
