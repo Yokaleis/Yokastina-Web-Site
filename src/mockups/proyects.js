@@ -23,10 +23,10 @@ export const projects =[
     {
         id: 3,
         image: imgCover,
-        title: "SOIV",
+        title: "Caso de estudio CuraDigital",
         description: "El problema principal del antiguo sistema de gestión era que ya no se adaptaba al crecimiento que tuvo la empresa, para el personal médico administrativo era complicado cumplir con sus labores, atender las llamadas de pacientes, subir su historial médico, asignar medicamentos, etc, el personal quería realizar el trabajo con mayor eficacia.",
         category: "#CasoDeEstudio🔍",
-        link: "",
+        link: "/singlepage",
     },
     {
         id: 4,

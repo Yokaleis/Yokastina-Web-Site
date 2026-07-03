@@ -20,3 +20,11 @@ export function Header() {
 </div>
   )
 }
+
+export function HeaderSingle() {
+  return(
+    <div className="grid grid-cols-1 items-center bg-rosachicle h-20 p-30">
+                <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center">Caso de estudio CuraDigital</h2>
+            </div>
+  )
+}

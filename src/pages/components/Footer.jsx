@@ -56,7 +56,7 @@ export function BotonCV() {
     idle: {
       text: "Descarga mi CV aquí",
       icon: "🤭📃✨",
-      className: "bg-rosachicle/30 text-rosachicle font-bold text-lg mr-2 px-3 py-3 rounded-full hover:bg-azulcielito hover:scale-105",
+      className: "bg-rosachicle/30 text-rosachicle font-bold text-lg mr-2 px-3 py-3 rounded-full hover:bg-azulcielito/30 hover:scale-105",
     },
     downloading: {
       text: "Mientras, contempla la naturaleza",

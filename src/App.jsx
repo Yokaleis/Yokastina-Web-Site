@@ -5,6 +5,8 @@ import './App.css'
 
 //PAGINAS
 import { Home } from './pages/Home'
+import SinglePage from './pages/SinglePage'
+import NotFound from './pages/NotFound'
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' index element={<Home/>}/>
+        <Route path='/singlepage' element={<SinglePage/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Routes>
       </BrowserRouter>
     </>
