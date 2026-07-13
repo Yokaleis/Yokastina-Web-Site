@@ -3,7 +3,7 @@ import React from 'react'
 import { MenuSecundario } from './components/Menu';
 import { Footer } from './components/Footer';
 //IMAGENES
-import yoSoy from './components/assets/sobremi.png';
+import yoSoy from './components/assets/sobremi.jpg';
 import { HeaderSingle } from './components/Header';
 
 

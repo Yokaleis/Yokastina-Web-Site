@@ -9,7 +9,7 @@ import { AdobeIcon, CSSIcon, FigmaIcon, GitIcon, HtmlIcon, JsIcon, ReactIcon } f
 import { projects } from '../mockups/proyects'
 
 //IMAGENES
-import yoSoy from './components/assets/sobremi.png'
+import yoSoy from './components/assets/sobremi.jpg'
 import { MenuPrincipal } from './components/Menu'
 import { ProjectSection } from './Projects'
 import { SkillBar } from './components/ScrollBar'

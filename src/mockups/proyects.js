@@ -18,7 +18,10 @@ export const projects = [
         image: imgCoverMS,
         title: "Aplicación telemedicina Mercantil Seguros",
         description: "El problema principal del antiguo sistema de gestión era que ya no se adaptaba al crecimiento que tuvo la empresa, para el personal médico administrativo era complicado cumplir con sus labores, atender las llamadas de pacientes, subir su historial médico, asignar medicamentos, etc, el personal quería realizar el trabajo con mayor eficacia.",
-        category: "#UXUI🎉",
+        category: [
+            "#UXUI🎉",
+            "#Figma✏️"
+        ] ,
         link: "",
     },
     {
@@ -26,7 +29,9 @@ export const projects = [
         image: imgCover,
         title: "Caso de estudio CuraDigital",
         description: "El problema principal del antiguo sistema de gestión era que ya no se adaptaba al crecimiento que tuvo la empresa, para el personal médico administrativo era complicado cumplir con sus labores, atender las llamadas de pacientes, subir su historial médico, asignar medicamentos, etc, el personal quería realizar el trabajo con mayor eficacia.",
-        category: "#CasoDeEstudio🔍",
+        category: [
+            "#CasoDeEstudio🔍",
+        ],
         link: "/singlepage",
     },
     {
@@ -34,7 +39,10 @@ export const projects = [
         image: imgCoverSitioRecetas,
         title: "Sitio web de recetas",
         description: "Aplicación web para buscar y filtrar recetas de forma rápida y sencilla.",
-        category: "#Frontend🩷",
+        category: [
+            "#Frontend🩷",
+            "#Figma✏️"
+        ] ,
         link: "https://sitio-web-de-recetas.vercel.app/"
     },
     {
