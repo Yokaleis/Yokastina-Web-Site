@@ -1,5 +1,5 @@
 //IMAGENES
-import imgCover from "./assets/CoverSOIV.png";
+import CoverCuraDigital from "./assets/CoverCuraDigital.png";
 
 export function Categoria({status, text}) {
   switch (status) {
