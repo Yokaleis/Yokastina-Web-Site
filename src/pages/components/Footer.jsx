@@ -8,8 +8,7 @@ export function Footer() {
     return (
         <>
     <div className=" bg-fondo items-center text-center h-auto align-baseline p-10">
-                
-                      <p className="text-black font-bold lg:text-8xl md:text-3xl cherry-bomb-one-regular text-center mb-20">yokaleis@gmail.com</p>
+          <p className="text-black font-bold text-3xl md:text-4xl lg:text-8xl cherry-bomb-one-regular text-center mb-20">yokaleis@gmail.com</p>
 
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mb-6">
             <div className="gid grid-cols-2 justify-center">
