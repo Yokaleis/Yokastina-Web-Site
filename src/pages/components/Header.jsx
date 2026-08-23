@@ -14,7 +14,9 @@ export function Header() {
       <img className="sm:w-30 md:w-30 lg:w-50 object-contain rounded-full" src={yoHero} alt="Foto perfil de Yokastina Diseñadora UXUI Frontend" srcset={`${yoHero} 400w, ${yoHero} 800w, ${yoHero} 1200w`}
       sizes="(max-width: 600px) 400px, 800px" />
       </div>
-      <h1 class="efecto-mecanografia">Hola 👋🏽 soy Yoka, Diseñadora UXUI <br/>
+      <h1 class="efecto-mecanografia hidden md:block">Hola 👋🏽 soy Yoka, Diseñadora UXUI <br/>
+y desarrolladora Frontend ✨</h1>
+<h1 className="text-black font-bold text-4xl cherry-bomb-one-regular text-center block md:hidden">Hola 👋🏽 soy Yoka, Diseñadora UXUI <br/>
 y desarrolladora Frontend ✨</h1>
 <div className="text-center mt-5">
             <CatButton type="button">🐈 Trabajemos juntos</CatButton>
