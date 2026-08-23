@@ -45,7 +45,7 @@ export function Home() {
     <ProjectSection/>
     
     <div className="bg-fondo p-10" id="habilidades">
-      <h2 className="text-rosachicle font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Habilidades</h2>
+      <h2 className="text-black font-bold text-5xl cherry-bomb-one-regular text-center mb-6">Habilidades 🧚🏽🍄</h2>
       <SkillBar/>
       {/* <div className="grid lg:grid-cols-7 md:grid-cols-3 sm:grid-cols-2 gap-4 justify-center p-20">
         <HtmlIcon/>
@@ -57,8 +57,8 @@ export function Home() {
         <GitIcon/>
       </div> */}
     </div>
-    <div className="bg-rosachicle p-10" id="sobremi">
-      <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí</h2>
+    <div className="bg-transparent p-10" id="sobremi">
+      <h2 className="text-black font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí ☁️</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
         <section className="p-20 ">
           <p className="text-lg">

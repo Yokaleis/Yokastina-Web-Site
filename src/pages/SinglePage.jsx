@@ -18,6 +18,7 @@ import RolesyTools from './components/assets/RolesyTools.png'
 import Metas from './components/assets/Metas.png'
 import DashboardCentralizado from './components/assets/DashboardCentralizado.png'
 import Despachador from './components/assets/Despachador.png'
+import AntesPantalla1 from './components/assets/AntesPantalla1.png'
 
 export default function SinglePage() {
     return (
@@ -125,7 +126,9 @@ export default function SinglePage() {
                     <p>Al diseñar cada pantalla nuestro objetivo fue muy claro desde el inicio, nos enfocamos en ofrecer interfaces visualmente agradables, fáciles de usar y entender para cada tipo de usuario tomando en cuenta que el equipo médico administrativo crece en número cada día queríamos brindarles una experiencia agradable e intuitiva. Agregamos nuevas características para aumentar la eficacia, entre ellas podemos mencionar búsqueda de diagnósticos y síntomas, reportes del funcionamiento de los servicios, panel de control para tener una visualización completa y en tiempo real del comportamiento de las atenciones y servicios, listados más sintetizados, conexión con las aplicaciones de telemedicina.</p>
                 </section>
                 <div className="grid grid-cols-2 gap-4 p-10">
-                    <img src={DashboardCentralizado} alt="" className="w-full" />
+                    <h4 className='font-extrabold text-gray-200 text-7xl text-center'>ANTES</h4>
+                    <h4 className='font-extrabold text-gray-200 text-7xl text-center'>DESPÚES</h4>
+                    <img src={AntesPantalla1} alt="" className="w-full" />
                     <img src={Despachador} alt="" className="w-full" />
 
                 </div>

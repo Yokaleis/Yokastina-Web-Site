@@ -31,8 +31,8 @@ export function ProjectSection() {
   return (
     <>
 
-      <section id="proyectos" className="bg-azulcielito p-10">
-        <h2 className="text-amarillobanana font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Proyectos</h2>
+      <section id="proyectos" className="bg-transparent p-10">
+        <h2 className="text-black font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Proyectos ✨</h2>
 
 
         {/* CONTENEDOR PADRE */}

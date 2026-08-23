@@ -33,9 +33,9 @@ export function Contacto() {
 
 
   return (
-    <div className="lg:p-30 sm:p-5" style={{ backgroundImage: `url(${bgContact})` }} id="contacto">
-      <section className="bg-azulcielito p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
-        <h2 className="text-amarillobanana font-bold lg:text-5xl md:text-3xl cherry-bomb-one-regular text-center mb-10">Contacto</h2>
+    <div className="bg-transparent lg:p-30 sm:p-5" id="contacto">
+      <section className="bg-fondo p-20 lg:w-130 md:w-100 grid rounded-2xl m-auto">
+              <h2 className="text-black font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Contacto 💌</h2>
         <form ref={form} onSubmit={sendEmail}>
           <div className="mb-4">
             <input type="text" name="title" id="title" className="w-full rounded-xl border-none bg-amber-100 px-3 py-2 placeholder-primary text-sm" placeholder="Contratación, colaboración, etc" />

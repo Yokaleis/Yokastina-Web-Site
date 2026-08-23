@@ -1,7 +1,35 @@
 /* En tu App.css o index.css */
 @import "tailwindcss";
+@import url('https://googleapis.com');
 
+.efecto-mecanografia {
+  font-family: 'Cherry Bomb One', cursive;
+  font-weight: bold;
+  font-size: 60px;
+  white-space: nowrap; /* Impide que el texto baje de línea */
+  overflow: hidden; /* Oculta los caracteres no revelados */  
+  text-align: center;
+  margin-top: 10px;
+  margin: auto;
+  /* Animación: 'typing' dura 3.5s y 'blink' hace parpadear el cursor */
+  animation: 
+    typing 3.5s steps(35, end),
+    blink 0.75s step-end infinite;
+  
+  width: 35ch; /* Ancho en 'ch' igual a la cantidad de caracteres que tiene el texto */
+}
 
+/* Revela el texto letra por letra */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 35ch; }
+}
+
+/* Hace parpadear el cursor al final */
+@keyframes blink {
+  from, to { border-color: transparent; }
+  50% { border-color: #007bff; }
+}
 
 @theme {
 

@@ -7,7 +7,10 @@ import { Instagram, Linkedin, Threads } from './Icons';
 export function Footer() {
     return (
         <>
-    <div className=" bg-amarillobanana/20 items-center text-center h-auto align-baseline p-10">
+    <div className=" bg-fondo items-center text-center h-auto align-baseline p-10">
+                
+                      <p className="text-black font-bold lg:text-8xl md:text-3xl cherry-bomb-one-regular text-center mb-20">yokaleis@gmail.com</p>
+
                 <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mb-6">
             <div className="gid grid-cols-2 justify-center">
 {/*                 <a href="./Yoka Leis _ CV _ Ingeniera en Informática _ UI Designer _ FrontEnd _ Remoto.pdf" download className="bg-rosachicle/30 text-rosachicle font-bold text-lg mr-2 px-3 py-3 rounded-full">Descarga mi CV aquí 🤭📃✨</a>
