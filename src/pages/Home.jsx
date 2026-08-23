@@ -60,7 +60,7 @@ export function Home() {
     <div className="bg-transparent p-10" id="sobremi">
       <h2 className="text-black font-bold text-5xl cherry-bomb-one-regular text-center mb-10">Sobre mí ☁️</h2>
       <div className="grid lg:grid-cols-2 md:grid-cols-1 gap-4">
-        <section className="p-20 ">
+        <section className="lg:p-20 md:p-5">
           <p className="text-lg">
             Hola soy Yokasta, graduada como Ingeniera en Informática y actualmente trabajando como UI Designer con más de cinco años de experiencia transformando necesidades de negocio en productos digitales intuitivos. A lo largo de mi trayectoria en el sector salud, he diseñado interfaces webs y móviles para más de 10 productos digitales, mejorando significativamente el acceso a servicios de telemedicina principalmente en Venezuela, mi experiencia se extiende también al diseño para los sectores de comercio electrónico y educación online, adaptando cada interfaz a usuarios específicos.
             <br/> 
